@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-content {
+  padding: 20px;
+}
+
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+}
+
+.nav-menu button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+}
+
+.nav-menu button:hover {
+  text-decoration: underline;
+}
+
+.active {
+  font-weight: bold;
+}
